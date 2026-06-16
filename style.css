@@ -1,0 +1,66 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+html,body{
+  width:100%;
+  min-height: 100vh;
+}
+
+body{
+  background-color:#74f7a7 ;
+  display:flex;
+  justify-content:center;
+align-items: center;
+
+position: relative;
+}
+
+#container{
+
+  height: 350px;
+  width: 250px;
+  background-color: white;
+  border-radius: 8px;
+  position: relative;
+ cursor: pointer;
+  user-select: none;
+  
+}
+#img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+#container #lov {
+ 
+font-size:35px;
+color: white;
+position: absolute;
+top: 50%;
+left: 49%;
+opacity:0;
+transform: translate(-50%,-50%) scale(0);
+transition: transform ease 0.4s, opacity 0.4s ease;
+}
+
+
+ #like {
+ 
+font-size:35px;
+color: white;
+
+opacity:0.8;
+transition: all ease 0.5s;
+}
+
+
+
+
+
+
