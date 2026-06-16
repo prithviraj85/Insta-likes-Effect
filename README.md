@@ -3,6 +3,7 @@
 Instagram-style double-click like animation using HTML, CSS, and JavaScript.
 
 ## Demo
+https://github.com/prithviraj85/Insta-likes-Effect
 
 ## Features
 - Double click to trigger heart animation
